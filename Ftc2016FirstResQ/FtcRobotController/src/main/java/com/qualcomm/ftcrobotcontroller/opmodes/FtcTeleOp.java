@@ -80,7 +80,7 @@ public class FtcTeleOp extends FtcRobot implements FtcGamepad.ButtonHandler
         double rightPower = -gamepad1.right_stick_y;
         dashboard.displayPrintf(3, "leftPower  = %f", leftPower);
         dashboard.displayPrintf(4, "rightPower = %f", rightPower);
-        dashboard.displayPrintf()
+//        dashboard.displayPrintf()
 
         // write the values to the motors
         leftFrontWheel.setPower(leftPower);
